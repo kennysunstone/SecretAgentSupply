@@ -54,8 +54,8 @@ html {
   align-content: center;
   background-color: black;
   margin-top: 9rem;
-  margin-bottom: 7rem;
-  width: 20rem;
+  margin-bottom: 8rem;
+  width: 25rem;
   height:auto;
   color: white;
 }
@@ -71,4 +71,22 @@ html {
   margin-left: 3rem;
   font-size: 2rem;
   font-weight: bold;
+}
+.navbar {
+  display: flex;
+  background-color: firebrick;
+  color: white;
+  width: 100%;
+  justify-content: center;
+}
+.navbar .container {
+  width: 960px;
+  margin: 0;
+  height:auto;
+  display:flex;
+  justify-content: space-between;
+}
+.navbar .container p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
