@@ -105,8 +105,6 @@ html {
   height: auto;
 }
 .productGrid .product .box {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   border: 4px solid black;
   width: 100%;
   height: auto;
@@ -117,6 +115,8 @@ html {
 .productGrid .product .box img {
   height: 9rem;
   width: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .productGrid .product p {
   color: white;
@@ -126,4 +126,31 @@ html {
   width: 100%;
   text-align: center;
   border: 4px solid black;
+}
+.companyInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+.companyInfo .info {
+  display:flex;
+  width: 35%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companyInfo .info .title {
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.companyInfo .info p {
+  text-align: left;
+  width: 100%;
 }
