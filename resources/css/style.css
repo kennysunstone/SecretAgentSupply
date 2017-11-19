@@ -187,6 +187,8 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-@media only screen and(max-width: 1024px) {
-  
+@media only screen AND(max-width:1024px) {
+  h1 {
+    font-size: 1.5rem;
+  }
 }
