@@ -63,6 +63,7 @@ html {
   display:flex;
   margin-top: 2rem;
   margin-left: 3rem;
+  font-weight: bold;
 }
 .header h1 {
   display:flex;
@@ -87,6 +88,13 @@ html {
   justify-content: space-between;
 }
 .navbar .container p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.navbar .container1024 {
+  display: none;
+}
+.navbar .container1024 p {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
@@ -189,6 +197,81 @@ html {
 }
 @media only screen AND(max-width:1024px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+  }
+  .navbar .container {
+    display: none;
+  }
+  .navbar .container {
+    width: 960px;
+    margin: 0;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+  }
+  .navbar .container p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .productGrid .container {
+    display: none;
+  }
+  .productGrid .container .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47%;
+    height: auto;
+  }
+}
+@media only screen AND(max-width: 470px){
+  h1 {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+  }
+  .mainBanner {
+    height: 15rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .mainBanner .container {
+    width: 100%;
+    margin: 0;
+    height:auto;
+    display:flex;
+    justify-content: flex-start;
+  }
+  .header {
+    margin-top: 9rem;
+    margin-bottom: 0;
+    width: 100%;
+    height:auto;
+    color: white;
+  }
+  .productGrid .container .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+  }
+  .companyInfo .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+    width: 90%;
+  }
+  .companyInfo .container .info {
+    margin-bottom: 0.5rem;
+  }
+  .footer .container {
+    text-align: center;
   }
 }
